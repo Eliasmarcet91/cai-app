@@ -4,7 +4,7 @@ from nltk.stem import WordNetLemmatizer
 import re
 
 # Load the model from disk
-loaded_model = pickle.load(open('finalized_model.pkl', 'rb'))
+loaded_model = pickle.load(open('Assignment4(1).pkl', 'rb'))
 
 # Initialize the lemmatizer
 lemmatizer = WordNetLemmatizer()
